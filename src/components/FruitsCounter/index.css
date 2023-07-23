@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.main-bg {
+  background-color: #ffd569;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.white-bg {
+  background-color: #ffffff;
+  margin: 30px;
+  border-radius: 10px;
+}
+.mango-image {
+  height: 70vh;
+  width: 43vw;
+}
+.banana-image {
+  height: 70vh;
+  width: 43vw;
+}
+.image-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banana-btn,
+.Mango-btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .image-con {
+    display: flex;
+    flex-direction: column;
+  }
+}
